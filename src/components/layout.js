@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
+import { fab, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import "./layout.scss"
+
+library.add(fab, faTwitter)
+dom.watch()
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +28,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
@@ -35,10 +37,13 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+
+        <div className="social-icons">
+          <a href="https://twitter.com/staircasewitch" rel="me"><i className="fab fa-twitter"></i></a>
+          <a href="https://www.artstation.com/staircasewitch" rel="me"><i className="cg cg-artstation"></i></a>
+        </div>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p className="colophon">&copy; James Firkins { new Date().getFullYear() }</p>
         </footer>
       </div>
     </>
