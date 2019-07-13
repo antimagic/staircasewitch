@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Staircase Witch ! Games, comics & writing projects of James Firkins`,
+    title: `Games, comics & writing projects of James Firkins`,
     description: `James Firkins illustrates traditional & digital art, builds websites, & writes short stories. This is where his personal projects live.`,
     author: `@staircasewitch`,
   },

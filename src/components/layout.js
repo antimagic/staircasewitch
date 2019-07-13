@@ -8,12 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { library, dom } from '@fortawesome/fontawesome-svg-core'
-import { fab, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import "./fontawesome"
 import "./layout.scss"
-
-library.add(fab, faTwitter)
-dom.watch()
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

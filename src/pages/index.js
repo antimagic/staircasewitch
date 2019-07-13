@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Staircase Witch" />
     <header>
       <h1>
         <strong>James Firkins</strong> <a href="https://www.artstation.com/staircasewitch" rel="me">illustrates traditional &amp; digital art</a>,<br />
