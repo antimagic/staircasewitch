@@ -1,0 +1,16 @@
+[
+  {
+    "title": "My Art",
+    "slug": "art",
+    "url": "https://instagram.com/staircasewitch/",
+    "image": "",
+    "description": "Regularly updated with new sketches and finished art."
+  },
+  {
+    "title": "The Moon is a Ghost",
+    "slug": "hallucinfection",
+    "url": "/fiction",
+    "image": "",
+    "description": "An ongoing short fiction blog."
+  }
+]

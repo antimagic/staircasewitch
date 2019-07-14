@@ -7,21 +7,10 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import "./fontawesome"
 import "./layout.scss"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <div
@@ -41,6 +30,7 @@ const Layout = ({ children }) => {
         <footer>
           <p className="colophon">&copy; James Firkins { new Date().getFullYear() }</p>
         </footer>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Poly" rel="stylesheet" type="text/css"></link>
       </div>
     </>
   )
