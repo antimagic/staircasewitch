@@ -6,6 +6,9 @@
   font-style: normal
 }
 
+$body-light: #b4c8d4;
+$body-dark: #4f819e;
+
 i.cg {
   font-family: cg-icons !important;
   speak: none;
@@ -27,7 +30,7 @@ i.cg {
 }
 
 body {
-  color: #b4c8d4;
+  color: $body-dark;
   background: #eef2f5;
   font-family: "Helvetica Neue",Helvetica,Source Sans Pro,sans-serif;
   margin: 0
@@ -56,6 +59,7 @@ header {
 
 header h1 {
   font-weight: bold;
+  color: $body-light;
 }
 
 header h1 strong {
