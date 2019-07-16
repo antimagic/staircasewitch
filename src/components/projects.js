@@ -12,7 +12,6 @@ const Projects = () => {
             slug
             description
             url
-            image
           }
         }
       }
