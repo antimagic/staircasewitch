@@ -26,7 +26,7 @@ const Project = (props) => {
   return (
     <div className="row-outer">
       <article className="row">
-        <a href={props.url} className="block-link">{props.title}</a>
+        <a href={props.url} className="block-link screenreader-only">{props.title}</a>
         <div href={props.url} className={`cover ${props.slug}`} style={coverStyle}></div>
         <div className="copy">
           <h1><a href={props.url}>{props.title}</a></h1>

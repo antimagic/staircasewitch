@@ -125,7 +125,20 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 5
+  z-index: 5;
+}
+
+.screenreader-only {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 .copy {
