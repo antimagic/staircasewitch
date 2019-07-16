@@ -21,8 +21,6 @@ const Project = (props) => {
     backgroundImage: `url(${cover.publicURL})`
   }
 
-  
-
   return (
     <div className="row-outer">
       <article className="row">
@@ -30,7 +28,9 @@ const Project = (props) => {
         <div href={props.url} className={`cover ${props.slug}`} style={coverStyle}></div>
         <div className="copy">
           <h1><a href={props.url}>{props.title}</a></h1>
-          <p>{props.description}</p>
+          {props.description.split('\n').map((text, i) => {
+            return <p key={`${props.slug}-description-${i}`}>{text}</p>
+          })}
         </div>
       </article>
     </div>

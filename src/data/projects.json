@@ -10,5 +10,41 @@
     "slug": "hallucinfection",
     "url": "/fiction",
     "description": "An ongoing short fiction blog."
+  },
+  {
+    "title": "The Avatar",
+    "slug": "avatar",
+    "url": "https://the-avatar.com",
+    "description": "The world seems to be ending and nobody except a paranoid murder suspect has noticed."
+  },
+  {
+    "title": "Porridge Cooling Darkly",
+    "slug": "porridge",
+    "url": "https://porridgedarkly.com",
+    "description": "Caesar's hat bends reality. Shadows stretch when it's pulled low. He wears it over his laurel wreath.\nOr did, before an insane, dimension-hopping submarine captain stole it."
+  },
+  {
+    "title": "Untitled Shmup",
+    "slug": "shmup",
+    "url": "/shmup",
+    "description": "A basic vertical shooter project undertaken as a crash course in ActionScript 3 development and modular design."
+  },
+  {
+    "title": "Windmills",
+    "slug": "windmills",
+    "url": "/downloads/windmills.rar",
+    "description": "Windmills is a tactical morality puzzle in which you command starships at arm's reach and every decision you make is ruining someone's day."
+  },
+  {
+    "title": "Transcend",
+    "slug": "transcend",
+    "url": "/downloads/transcend.rar",
+    "description": "Hounded by an obsessed starship captain, a disavowed special operations cell scrambles to unravel an impossible and alien mystery before it destroys everything they know."
+  },
+  {
+    "title": "Sync",
+    "slug": "sync",
+    "url": "/downloads/sync.rar",
+    "description": "Three oblivious mercenary pilots are exploited by their employer and sent hurtling through time.\nBut the device responsible is beyond anyone's control, and soon the lost pilots suspect there is another manipulator at work."
   }
 ]
