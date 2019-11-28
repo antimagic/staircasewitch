@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
         <div className="social-icons">
           <a href="https://twitter.com/staircasewitch" rel="me"><i className="fab fa-twitter"></i></a>
           <a href="https://www.artstation.com/staircasewitch" rel="me"><i className="cg cg-artstation"></i></a>
+          <a href="https://instagram.com/staircasewitch" rel="me"><i className="fab fa-instagram"></i></a>
         </div>
         <footer>
           <p className="colophon">&copy; James Firkins { new Date().getFullYear() }</p>
