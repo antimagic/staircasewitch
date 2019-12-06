@@ -37,3 +37,8 @@ jobs:
       - run: yarn test
 
       - run: yarn build
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run: ls staircasewitch
